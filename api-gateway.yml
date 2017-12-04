@@ -8,7 +8,7 @@ spring:
   aop:
     proxy-target-class: true
   zipkin:
-    baseUrl: http://localhost:9411/
+    baseUrl: http://rogusan:9411/
   sleuth:
     sampler:
 # Generally the tracing data volume can be quite high; so we can tell Spring sleuth to
